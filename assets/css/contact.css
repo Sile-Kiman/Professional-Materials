@@ -32,6 +32,8 @@ body{
 #link_wrapper{
     float: right;
     color:#2c0d2b;
+    text-align: center;
+    margin: 20px;
 
     
 }
@@ -143,6 +145,7 @@ input[type=submit]{
     margin: auto;
     padding-bottom: 20px;
     color: #2c0d2b;
+   
    }
 
    .footer{

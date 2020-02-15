@@ -87,6 +87,8 @@ body{
 .all_images {
     position: relative; 
     display: inline-block;
+    border: 1px solid  #2c0d2b;
+    margin-top: 15px;
     
      
 }
@@ -130,10 +132,19 @@ p{
     
 }
 
-#plink_wrapper{
-    margin: 0 auto;
-    padding-bottom: 20px;
+#codelink_wrapper{
+    /* margin:  auto; */
+    text-align: center;
+    padding-top: 5px;
     color: #2c0d2b;
+   }
+
+#plink_wrapper{
+    margin: 30px auto;
+    /* padding-bottom: 10px; */
+    color: #2c0d2b;
+    
+    /* margin-top: 20px; */
    }
 
    .footer{
