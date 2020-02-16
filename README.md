@@ -30,9 +30,11 @@ Test:
 
 Image of the Site:
 
-<img scr= "responsive-portfolio/assets/images/about.PNG">
-<img scr= "responsive-portfolio/assets/images/portfolio.PNG">
-<img scr= "responsive-portfolio/assets/images/contact.PNG">
+![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/mobileView.PNG)
+![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/about.PNG)
+![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/portfolio.PNG)
+![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/contact.PNG)
+ 
 
 License:
 MIT License
