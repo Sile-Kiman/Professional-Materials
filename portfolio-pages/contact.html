@@ -67,8 +67,8 @@
     <div class="main">
 
         <!---This is begening of the contact form -->
-        <form name="Contact" action="mailto:sile.kiman@yahoo.com" method="POST">
-
+        <form id="clear" name="Contact" action="mailto:sile.kiman@yahoo.com" method="POST" enctype="text/plain" subject="">
+              
             <div id="line">
                 <h1 id="sub_text">Contact</h1>
 
@@ -76,16 +76,18 @@
 
             <div id="fields">
                 Name:<br>
-                <input name="Flname" type="text" value="" placeholder="Your Name"></input>
+                <input class ="allFields" name="Flname" type="text" value="" placeholder="Your Name"></input>
                 <br>
-                Email:<br>
-                <input type="text" value="" placeholder="email@gmail.com"></input>
+                Subject:<br>
+                <input type="text" value=" " placeholder="Subject"></input>
                 <br>
                 Message:<br>
                 <textarea name="text" placeholder="Enter your message"></textarea>
                 <br>
-                <input type="submit" value="Submit">
-
+                 <div id="plink_wrapper">
+                    <input type="submit" class = "subBtn" value="Submit" > 
+                    <a href="#" id="clearBTN" onclick="resetForm()"> Clear</a> 
+                </div>
                 <div id="plink_wrapper">
                
                     <a href="#"><i class="fas fa-phone-volume"> 980-339-2136</i></a> &#124;
@@ -93,7 +95,7 @@
                     <a href="#"><i class="fas fa-map-marker-alt"> Charlotte, NC</i></a> &#124;
                     <a href="https://www.linkedin.com/in/sile-kiman-2a4478b3" target="_blank"><i class="fab fa-linkedin"> LinkedIn</i></a> &#124;
                     <a href="https://github.com/Sile-Kiman" target="_blank"><i class="fab fa-github"> GitHub</i></a> &#124;
-                    <a href="/responsive-portfolio/portfolio-pages/resume.html" target="_blank"><i class="far fa-file"> Resume </i></a>
+                    <a href="./resume.html" target="_blank"><i class="far fa-file"> Resume </i></a>
                 </div>
             </div>
         </form>
@@ -106,7 +108,13 @@
     </footer>
 
     </div>
+<script>
+ var formEl = document.querySelector('#clear');
 
+  function resetForm() { 
+    formEl.reset();
+  }
+</script>
 </body>
 
 </html>
