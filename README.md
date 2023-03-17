@@ -5,7 +5,7 @@ Title: My Portfolio
 Usage/Description: This site is about_me portfolio to introduce myself to anyone who is looking/reading this page. It gives you information about my personal, educational and professional background.
 
 Deploy Link:
-https://sile-kiman.github.io/Professional-Materials//portfolio-pages/index.html
+https://sile-kiman.github.io/Professional-Materials/portfolio-pages/index.html
 
 
 Tool used to build my portfolio site.
